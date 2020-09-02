@@ -27,3 +27,4 @@ Route.group(() => {
 }).prefix('api/');
 
 Route.get('cities', 'CityController.index');
+Route.get('states', 'StateController.index');
