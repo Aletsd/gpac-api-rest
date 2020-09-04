@@ -28,3 +28,7 @@ Route.group(() => {
 
 Route.get('cities', 'CityController.index');
 Route.get('states', 'StateController.index');
+Route.get('zipcode', 'ZipCodeController.index');
+Route.get('specialties', 'SpecialtyController.index');
+Route.get('sub_specialties', 'SubSpecialtyController.index');
+Route.get('functional_titles', 'FunctionalTitleController.index');
